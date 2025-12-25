@@ -3,7 +3,7 @@
 #include <spdlog/spdlog.h>
 
 static bool set_logging_level(const std::string &level_name) {
-  auto level = magic_enum::enum_cast<spdlog::level::level_enum>(level_name);
+  auto level = magic_enum::enum_cast<spdlog::level>(level_name);
   if (level.has_value()) {
     spdlog::set_level(level.value());
     return true;

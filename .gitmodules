@@ -13,9 +13,6 @@
 [submodule "external/argparse"]
 	path = external/argparse
 	url = https://github.com/p-ranav/argparse.git
-[submodule "external/argarse"]
-	path = external/argarse
-	url = https://github.com/p-ranav/argparse.git
 [submodule "external/raylib"]
 	path = external/raylib
 	url = https://github.com/raysan5/raylib.git
